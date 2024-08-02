@@ -1,0 +1,61 @@
+/* Apply global styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: white; /* Set background color to white */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+.container {
+  width: 80%;
+  max-width: 800px; /* Set a maximum width for larger screens */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+  background-color: #f9f9f9; /* Slightly different background for the container */
+  border-radius: 8px; /* Rounded corners */
+}
+
+button {
+  background-color: #007bff; /* Blue color */
+  color: white; /* Text color white */
+  border: none;
+  padding: 10px;
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%; /* Make button full width of the container */
+  box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+input[type="text"], select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px; /* Rounded corners */
+  width: 100%; /* Full width of the container */
+  margin-bottom: 10px;
+  box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+input[type="text"] {
+  color: black; /* Text color in text field */
+}
+
+select {
+  color: black; /* Dropdown text color */
+}
+
+pre {
+  white-space: pre-wrap; /* Ensure long texts wrap */
+  word-break: break-word;
+}
+
+* {
+  color: black; /* Default text color for all elements */
+}
