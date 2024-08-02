@@ -29,7 +29,7 @@ const FilteredResponse: React.FC<FilteredResponseProps> = ({ response }) => {
           result['Numbers'] = response.numbers.join(',');
           break;
         case 'Highest Alphabet':
-          result['Highest Alphabet'] = response.highestAlphabet;
+          result['Highest Alphabet'] = response.highest_alphabet;
           break;
         case 'Alphabet':
           result['Alphabet'] = response.alphabet.join(','); // Assuming response.alphabet is an array
